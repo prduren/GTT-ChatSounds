@@ -16,16 +16,16 @@ Notes:
 
 If you want to edit the script:
 
-	1. Obtain AutoHotkey (it's on a drive somewhere...)
+	1. Obtain AutoHotkey
 
-	2. Edit .ahk file (Notepad/Notepad++(also on a drive somewhere))
+	2. Edit .ahk file
 
 	3. Either run the .ahk file instead of the .exe every time, or right-click .ahk file > Compile Script to make another .exe with your changes
 
 	- If you would rather not pause the script every time you type in the chatbox, you can instead change the "Sleep 1000" (1 second)
-	on line 65 to "Sleep 10000" (10 seconds), or any other amount of milliseconds. Although this will still make the chat noise
+	to "Sleep 10000" (10 seconds), or any other amount of milliseconds. Although it will still make the chat noise
 	every 10 seconds when you're typing in the GTT chat box, it'll be less annoying than every 1 second. This will still check 
 	for chat messages, but it'll just check every 10 seconds instead of every second. 
 
-	- Since the sound that plays is just a .wav in C:/Windows/Media (path should be the same on your machine), you can switch 
+	- Since the sound that plays is just a .wav in C:/Windows/Media (path should be the same on your machine if you're on Windows), you can switch 
 	"Speech Sleep.wav" out on line 66  in the .ahk with any other sound you like in that Media folder.
